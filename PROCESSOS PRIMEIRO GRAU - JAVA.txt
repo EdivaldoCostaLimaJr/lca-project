@@ -1,0 +1,20 @@
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		 double PE, REMOTO, POSSIVEL;
+		 
+		 System.out.println("PROVISIONAMENTO DOS PROCESSOS EM PRIMEIRO GRAU\n");
+		 
+		 System.out.println("Qual o valor da probabilidade de perda ? ");
+		 PE = sc.nextDouble();
+		 
+		 REMOTO = PE*0.70;
+		 
+		 POSSIVEL = PE*0.30;
+		 
+		 System.out.printf("O valor do possível é de: R$ %.2f", POSSIVEL);
+		 System.out.printf("\nO valor do remoto é de: R$ %.2f", REMOTO);
+
+}
