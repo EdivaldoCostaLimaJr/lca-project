@@ -1,3 +1,1 @@
-# lca-project 
-
-<!--teste-->
+# lca-project

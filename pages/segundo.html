@@ -1,6 +1,42 @@
-<img id="logo" src="./src/indice.png" />
-<div>
-  <label for="grau_processual">Segundo Grau</label>
-  <br /><br /><br />
-</div>
-<a href="/" onClick="route()">Inicio</a>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Segundo Grau</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../src/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./src/normalize.css" />
+  </head>
+  <body>
+    <div id="container02">
+      <img id="logo" src="../indice.png" />
+      <div>
+        <label for="grau_processual">2º Grau</label><hr>
+        <br/><br /><br/>
+
+        
+        <div>
+					<input autofocus class="valor01" type="text" name="valor" id="valor01" placeholder="Digiete o valor da Petição Inicial" >
+				</div><br>
+
+        <div>
+					<input autofocus class="valor01" type="text" name="valor" id="valor01" placeholder="Digite o valor do Contador da Vara" >
+				</div><br>
+
+        <div>
+					<input autofocus class="valor01" type="text" name="valor" id="valor01" placeholder="Digite o valor do Contador da Claro S.A" >
+				</div><br>
+        <button class="button ok">&#10004;</button>
+
+
+      </div>
+    </div>
+
+    <div id="backhome">
+    <a href="/" onClick="route()">Início</a>
+    </div>
+
+    <script src="./src/router.js"></script>
+  </body>
+</html>
