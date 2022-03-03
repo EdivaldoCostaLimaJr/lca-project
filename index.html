@@ -2,22 +2,24 @@
 <html lang="pt-br">
   <head>
     <title>Provisionamento</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="./src/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./src/normalize.css" />
+    
   </head>
   <body>
     <div id="container">
       <img id="logo" src="./src/indice.png" />
       <div>
-        <label for="grau_processual">Qual o grau processual ?</label>
-        <br /><br /><br />
-        <a href="/primeiro" onClick="route()">
+        <label class="labelindex" for="provisionamento">PROVISIONAMENTO</label>
+        <br /><br /><br/>
+        <button><a href="/primeiro" onClick="route()">
           Primeiro Grau
-        </a>
-        <a href="/segundo" onClick="route()">
+        </a></button><br><br>
+      <button><a href="/segundo" onClick="route()">
           Segundo Grau
-        </a>
+        </a></button>
       </div>
     </div>
     <script src="./src/router.js"></script>
