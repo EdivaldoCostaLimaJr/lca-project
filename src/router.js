@@ -27,3 +27,25 @@ window.onpopstate = handleLocation;
 window.route = route;
 
 handleLocation();
+
+const firstDegree = () => {
+  const input = document.getElementById("valor01").value;
+  alert(`Valor remoto: R$${input*0.7}\nValor possivel: R$${input*0.3}`);
+}
+
+const secondDegree = () => {
+  const perdaEfetiva = document.getElementById("valor01").value;
+  const contadorVara = document.getElementById("valor02").value;
+  const contadorClaro = document.getElementById("valor03").value;
+  const provavel = contadorClaro;
+  const possivel = contadorVara - provavel;
+  alert(
+    `Valor provavel: R$${provavel}\nValor possivel: R$${possivel}\nValor remoto: R$${perdaEfetiva - (provavel - (-possivel))}`
+  );
+}
+
+/*
+VALOR PROVAVEL == CONTADOR DA VARA
+VALOR DO POSSIVEL == CONTADOR DA VARA - CONTADOR DA CLARO
+VALOR REMOTO == VALOR DA PERDA EFETIVA - (PROVAVEL + POSSIVEL)
+*/
