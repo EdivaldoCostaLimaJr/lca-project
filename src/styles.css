@@ -28,26 +28,14 @@ body {
   text-align: center;
 }
 
-#container01 {
+.calculus-container {
   width: 600px;
   height: 500px;
   background-color: rgba(37, 35, 35, 0.3);
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 55px;
-  text-align: center;
-  
-}
-
-#container02 {
-  width: 600px;
-  height: 500px;
-  background-color: rgba(37, 35, 35, 0.3);
-  border-radius: 10px;
-  margin: 0 auto;
-  margin-top: 55px;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 #container img {
@@ -114,7 +102,7 @@ label {
 
   letter-spacing: .2rem;
   color:#fbfaf9;
-  position: absolute;
+  position: relative;
   text-decoration: center;
   left: 0%;
   top: 15%;
@@ -140,7 +128,7 @@ label {
 hr {
 
 width: 100px;
-margin-left: 246px;
+margin-left: 150px;
 margin-top: 10px;
 color: #c0bdbd;
 

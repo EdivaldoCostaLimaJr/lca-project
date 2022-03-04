@@ -1,34 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>Primeiro Grau</title>
-    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+<div id="calculus-container">
+  <img id="logo" src="../indice.png" />
+  <div>
+  <label for="grau_processual">1º Grau</label><hr>
+   <br /><br /><br/>
 
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../src/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./src/normalize.css" />
-  </head>
-  <body>
-    <div id="container01">
-      <img id="logo" src="../indice.png" />
-      <div>
-        <label for="grau_processual">1º Grau</label><hr>
-        <br /><br /><br/>
+  <div>
+    <label>Digite o valor da probabilidade de perda</label>
+    <input autofocus class="valor01" type="text" name="valor" id="valor01" placeholder="R$" >
+    <button onClick="firstDegree()" class="button ok" id="fist-degree-button">&#10004;</button>
+  </div>
+    
+  </div>
+</div>
 
-        <div>
-					<input autofocus class="valor01" type="text" name="valor" id="valor01" placeholder="Digite o valor da probabilidade de perda" >
-        <button class="button ok">&#10004;</button>
-				</div>
-
-        
-     </div>
-    </div>
-  
-
-    <div id="backhome">
-        <a href="/" onClick="route()">Início</a>
-        </div>
-
-    <script src="./src/router.js"></script>
-  </body>
-</html>
+<div id="backhome">
+ <a href="/" onClick="route()">Início</a>
+</div>
